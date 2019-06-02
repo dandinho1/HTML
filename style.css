@@ -9,7 +9,7 @@ footer {
 }
 
 body {
-    background-color: white
+    background-image: linear-gradient(to right, black, yellow)
 }
 
 .QoO6OnkxtLjMC2Y1i7s {
@@ -97,10 +97,37 @@ body {
     margin-left:-50px;
 } */
 #histDiv{
-    background-color: aqua;
-    padding: 100px;
+    background-color: white;
+    padding: 0px 50px 80px;;
     border: 1px solid #000000;
     text-align: justify;
 }
 
 /* tem um <p> justificado na div que eu to fazendo, calma ai */
+
+#divLogo {
+    padding: 50px 50px 80px;
+    justify-content: center;
+    display: flex;
+
+}
+
+#divForms {
+    padding: 50px, 0, 20px, 0;
+    align-self: center
+
+    /* position: absolute;
+    width: 15em;
+    text-align: center; */
+}
+
+#forms {
+    background-color: white;
+    padding: 10px;
+    width: 20em;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-left: 32em;
+    margin-top: 10em;
+
+}
