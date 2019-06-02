@@ -1,112 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Horizon">
-    <meta name='author' content="Evandro, Fabio">
-    <meta name="description" content="Streaming de jogos">
-    <meta name="keywords" content="streaming, jogos, assinatura">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-    <title>Horizon</title>
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Horizon">
+  <meta name='author' content="Evandro, Fabio">
+  <meta name="description" content="Streaming de jogos">
+  <meta name="keywords" content="streaming, jogos, assinatura">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Horizon</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
 
-   <!--MENU-->
-   <div class="center">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">HORIZON</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="mvv.html">Conheça-Nos</a>
-              </li>
-              
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Assine (Em breve) </a>
-            </li>
-          </ul>
+
+</head>
+
+<body>
+  <!-- preloader page -->
+  <div id="preloader">
+    <img src="imagens/preloader.gif" alt="Preloader">
+  </div>
+  <!-- end preloader page -->
+
+  <!--MENU-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">HORIZON</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mvv.html">Conheça-Nos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Assine (Em breve) </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--SLIDES-->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imagens/mk11.jpeg" alt="Primeiro Slide">
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagens/dm5.jpeg" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imagens/sekiro.jpg" alt="Terceiro Slide">
+        </div>
       </div>
-    
-      <div class="container">
-          
-        <hr class="featurette-divider" class="container">
-        <div class="row featurette">
-          <div class="col-md-12">
-          
-              <center><img id="logo" class="container-fluid" alt="500x500" style="width: 300px; height: 200px;" src="imagens/logo.jpg" data-holder-rendered="true"></center>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </div>
 
-              <br>
-              <br>
-              
-            <center><h2 class="featurette-heading">Quem Somos?<span class="text-muted"></span></h2></center>
-            <br>
-            <p align="justify" class="lead">A Horizon é uma empresa que foi criada em 2017 para satisfazer a demanda de mídia digital de jogos nacionais e internacionais. Atuando como pioneira em distribuição de jogos via streaming no Brasil, nossa empresa teve um crescimento considerável a partir de 2018 com a evolução de tecnologias para expansão de internet. Com o crescimento do número de jogadores no mercado brasileiro de games, é um setor que expande suas fronteiras independentemente das condições da economia do país. Com a Horizon você pode jogar via streaming com acesso ilimitado ao nosso conteúdo, de forma segura e com qualidade por meio de assinaturas, mensal, trimestral, semestral ou anual. Contamos com a maior biblioteca de jogos sendo atualizada constantemente. Você pode acessar com toda a comodidade e bem-estar, a qualquer hora, em qualquer dia da semana, de qualquer equipamento que tenha acesso à internet em qualquer lugar do mundo.</p>
-            </div>
+  <div class="container">
+
+    <hr class="featurette-divider" class="container">
+    <div class="row featurette">
+      <div class="col-md-12">
+        <center>
+          <img id="logo" class="container-fluid" alt="500x500" style="width: 300px; height: 200px;"
+            src="imagens/logo.jpg" data-holder-rendered="true">
+        </center>
+        <br>
+        <br>
+
+
+        <h2 class="featurette-heading" style="text-align: center">Quem Somos?<span class="text-muted"></span></h2>
+        <br>
+        <div id="histDiv">
+          <p id="history" class="lead">A Horizon é uma empresa que foi criada em 2017 para satisfazer a demanda de
+            mídia digital de jogos nacionais e internacionais. Atuando como pioneira em distribuição de jogos via
+            streaming no Brasil, nossa empresa teve um crescimento considerável a partir de 2018 com a evolução de
+            tecnologias para expansão de internet. Com o crescimento do número de jogadores no mercado brasileiro de
+            games, é um setor que expande suas fronteiras independentemente das condições da economia do país. Com a
+            Horizon você pode jogar via streaming com acesso ilimitado ao nosso conteúdo, de forma segura e com
+            qualidade
+            por meio de assinaturas, mensal, trimestral, semestral ou anual. Contamos com a maior biblioteca de jogos
+            sendo atualizada constantemente. Você pode acessar com toda a comodidade e bem-estar, a qualquer hora, em
+            qualquer dia da semana, de qualquer equipamento que tenha acesso à internet em qualquer lugar do mundo.</p>
         </div>
+      </div>
+    </div>
 
-              <!--SLIDES-->
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100" src="imagens/mk11.jpeg" alt="Primeiro Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="imagens/dm5.jpeg" alt="Segundo Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="imagens/sekiro.jpg" alt="Terceiro Slide">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div>
-        </div>
+    <BR>
+    <br>
+    <br>
+    <footer class="container-fluid">
+      <!-- rodape -->
 
-<BR>
-<br>
-<br>
-        <footer class="container-fluid">
-            <!-- rodape -->
-            
-        </footer>
+    </footer>
 
 
     <!--Para fazer alguns dos componentes do CSS funcionar-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+    <!-- Essential jQuery Plugins
+		================================================== -->
+    <!-- Main jQuery -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+
+    <!-- custom js animate -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
