@@ -3,6 +3,7 @@ footer {
     color: rgb(255, 255, 255);
     padding: 60px 0 30px;
 }
+
 .Slide {
     border: 100px;
 }
@@ -11,19 +12,95 @@ body {
     background-color: white
 }
 
-        .QoO6OnkxtLjMC2Y1i7s { color:#2e66ff !important; } 
-        .QoO6OnkxtLjMC2Y1i7s.ba-outline { outline-color:#2e66ff } 
-        .QoO6OnkxtLjMC2Y1i7s.NdXTOI6HS7i3DUfU7CT:hover, .QoO6OnkxtLjMC2Y1i7s.NdXTOI6HS7i3DUfU7CT.active { color:#295cdb !important; }
-        .pZbBTLrSkkzZxDpUsN { background-color:#2e66ff !important; }
-        .pZbBTLrSkkzZxDpUsN.NdXTOI6HS7i3DUfU7CT:hover, .pZbBTLrSkkzZxDpUsN.NdXTOI6HS7i3DUfU7CT.active { background:#295cdb !important; }
-        .ba-border-primary { border-color:#295cdb !important }
-        .IxTSrnCv7iFeFQ3Zklj { background:#eb8f1e !important; color:white !important; }
-        .IxTSrnCv7iFeFQ3Zklj.NdXTOI6HS7i3DUfU7CT:hover, .IxTSrnCv7iFeFQ3Zklj.NdXTOI6HS7i3DUfU7CT.active { background:#ff9b21 !important; }
-        .ba-color-secondary { color:#eb8f1e !important;  }
-        .ba-color-secondary.NdXTOI6HS7i3DUfU7CT:hover, .ba-color-secondary.NdXTOI6HS7i3DUfU7CT.active { color:#ff9b21 !important; }
-        .ba-color-tertiary { color:#eb8f1e !important }
-        .ba-color-tertiary.NdXTOI6HS7i3DUfU7CT:hover, .ba-color-tertiary.NdXTOI6HS7i3DUfU7CT.active { color:#ff9b21 !important }
-        .b221UnQpjbb9Y { background:#eb8f1e !important }
-        .ba-bg-tertiary.NdXTOI6HS7i3DUfU7CT:hover, .ba-bg-tertiary.NdXTOI6HS7i3DUfU7CT.active { background:#ff9b21 !important }
+.QoO6OnkxtLjMC2Y1i7s {
+    color: #2e66ff !important;
+}
 
+.QoO6OnkxtLjMC2Y1i7s.ba-outline {
+    outline-color: #2e66ff
+}
 
+.QoO6OnkxtLjMC2Y1i7s.NdXTOI6HS7i3DUfU7CT:hover, .QoO6OnkxtLjMC2Y1i7s.NdXTOI6HS7i3DUfU7CT.active {
+    color: #295cdb !important;
+}
+
+.pZbBTLrSkkzZxDpUsN {
+    background-color: #2e66ff !important;
+}
+
+.pZbBTLrSkkzZxDpUsN.NdXTOI6HS7i3DUfU7CT:hover, .pZbBTLrSkkzZxDpUsN.NdXTOI6HS7i3DUfU7CT.active {
+    background: #295cdb !important;
+}
+
+.ba-border-primary {
+    border-color: #295cdb !important
+}
+
+.IxTSrnCv7iFeFQ3Zklj {
+    background: #eb8f1e !important;
+    color: white !important;
+}
+
+.IxTSrnCv7iFeFQ3Zklj.NdXTOI6HS7i3DUfU7CT:hover, .IxTSrnCv7iFeFQ3Zklj.NdXTOI6HS7i3DUfU7CT.active {
+    background: #ff9b21 !important;
+}
+
+.ba-color-secondary {
+    color: #eb8f1e !important;
+}
+
+.ba-color-secondary.NdXTOI6HS7i3DUfU7CT:hover, .ba-color-secondary.NdXTOI6HS7i3DUfU7CT.active {
+    color: #ff9b21 !important;
+}
+
+.ba-color-tertiary {
+    color: #eb8f1e !important
+}
+
+.ba-color-tertiary.NdXTOI6HS7i3DUfU7CT:hover, .ba-color-tertiary.NdXTOI6HS7i3DUfU7CT.active {
+    color: #ff9b21 !important
+}
+
+.b221UnQpjbb9Y {
+    background: #eb8f1e !important
+}
+
+.ba-bg-tertiary.NdXTOI6HS7i3DUfU7CT:hover, .ba-bg-tertiary.NdXTOI6HS7i3DUfU7CT.active {
+    background: #ff9b21 !important
+}
+
+#logo {
+    position: relative;
+}
+
+#preloader {
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1100;
+}
+
+#preloader>img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+/* #logo{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+} */
+#histDiv{
+    background-color: aqua;
+    padding: 100px;
+    border: 1px solid #000000;
+    text-align: justify;
+}
+
+/* tem um <p> justificado na div que eu to fazendo, calma ai */
